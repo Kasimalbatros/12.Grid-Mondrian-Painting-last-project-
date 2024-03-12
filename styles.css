@@ -1,0 +1,49 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+}
+.container{
+  display:grid;
+  grid-template-columns:320px 198px 153px 50px;
+  grid-template-rows:414px 130px 155px 22px;
+  height:748px;
+  width:748px;
+  background-color:black;
+  gap:9px;
+  
+}
+.one{
+ background-color: Red;
+
+}
+.two{
+ background-color: grey;
+ grid-column:span 3;
+
+}
+.three{
+background-color: grey;
+grid-row:span 2;
+}
+.four{
+background-color: grey;
+grid-area:2/2/4/4;
+}
+.five{
+background-color: blue;
+}
+.six{
+background-color:grey;
+grid-row:span 2;
+}
+.seven{
+background-color: grey;
+}
+.eight{
+background-color: yellow;
+}
+.nine{
+background-color: blue;
+}

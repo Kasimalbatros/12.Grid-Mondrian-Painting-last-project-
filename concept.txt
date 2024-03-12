@@ -1,0 +1,10 @@
+Mondrian Painting(project).
+
+Concept how to make mondrain painting.
+1.Make whole background-color black and give gap property so that in between boxes black gap visible.
+2.Container should contains Height and Width of box
+Inside Items below commands are used.
+3.grid-column:span 3;  (merge or takes space of 3 columns into single column)
+4.grid-row:span 2;    (merge or takes space of 2 rows into single column)
+5.grid-area:2/2/4/4   (Please practice grid area)
+
